@@ -13,7 +13,12 @@ const ContactForm = ({
 	errors,
 	touched,
 }) => (
-	<Form>
+	<Form
+		method="post"
+		data-netlify="true"
+		data-netlify-recaptcha="true"
+		data-netlify-honeypot="bot-field"
+	>
 		<InputField>
 			<Input
 				as={FastField}
