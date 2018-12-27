@@ -38,7 +38,7 @@ Project on [Behance](https://www.behance.net/gallery/74172961/Free-Gatsby-portfo
 
 [Yarn](https://yarnpkg.com/en/)
 
-Please create a new file `.env` and put this env variable with your GitHub token
+Please create a new file `.env.development` and put this env variable with your GitHub token
 
 ```bash
 GITHUB_TOKEN=xxxxxxxxxx
