@@ -5,7 +5,7 @@ import { Wrapper, Details, Thumbnail } from './styles'
 import ContactForm from './ContactForm'
 
 export const Contact = () => (
-	<Wrapper as={Container}>
+	<Wrapper as={Container} id="contact">
 		<Details>
 			<ContactForm />
 		</Details>
