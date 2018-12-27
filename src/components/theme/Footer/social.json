@@ -14,13 +14,13 @@
   {
     "id": 2,
     "name": "StackOverflow",
-    "link": "https://github.com/smakosh",
+    "link": "https://stackoverflow.com/users/story/7396786",
     "icon": "/icons/stackoverflow.svg"
   },
   {
     "id": 3,
     "name": "Twitter",
-    "link": "https://github.com/smakosh",
+    "link": "https://twitter.com/smakosh",
     "icon": "/icons/twitter.svg"
   }
 ]
