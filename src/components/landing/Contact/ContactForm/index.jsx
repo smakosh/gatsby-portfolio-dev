@@ -24,6 +24,7 @@ const ContactForm = ({
 				as={FastField}
 				type="text"
 				name="name"
+				component="input"
 				aria-label="name"
 				placeholder="Full name*"
 				error={touched.name && errors.name}
@@ -34,6 +35,7 @@ const ContactForm = ({
 			<Input
 				id="email"
 				aria-label="email"
+				component="input"
 				as={FastField}
 				type="email"
 				name="email"

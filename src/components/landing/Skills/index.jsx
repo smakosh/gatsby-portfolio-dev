@@ -1,4 +1,5 @@
 import React from 'react'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { Container, Button } from 'Common'
 import dev from 'Static/illustrations/skills.svg'
 import { Wrapper, SkillsWrapper, Details, Thumbnail } from './styles'
@@ -15,7 +16,7 @@ export const Skills = () => (
 					Lorem Ipsum is simply dummy text of the printing and typesetting
 					industry. Lorem Ipsum has been the industry’s standard dummy.
 				</p>
-				<Button as="a" href="#">
+				<Button as={AnchorLink} href="#contact">
 					Hire me
 				</Button>
 			</Details>
