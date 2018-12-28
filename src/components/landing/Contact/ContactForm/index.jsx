@@ -4,6 +4,7 @@ import { Form, withFormik, FastField, ErrorMessage } from 'formik'
 import Recaptcha from 'react-google-recaptcha'
 import * as Yup from 'yup'
 import { Button, Input } from 'Common'
+import { recaptcha_key } from 'Data'
 import { Error, Center, InputField } from './styles'
 
 const ContactForm = ({
@@ -14,6 +15,7 @@ const ContactForm = ({
 	touched,
 }) => (
 	<Form
+		name="portfolio-dev"
 		method="post"
 		data-netlify="true"
 		data-netlify-recaptcha="true"
@@ -58,11 +60,11 @@ const ContactForm = ({
 			/>
 			<ErrorMessage component={Error} name="message" />
 		</InputField>
-		{values.email && values.name && values.message && (
+		{values.name && values.email && values.message && (
 			<InputField>
 				<FastField
 					component={Recaptcha}
-					sitekey="6Lcs6lQUAAAAAEwhNH2IsobIe2csdda4TU3efpMN"
+					sitekey={recaptcha_key}
 					name="recaptcha"
 					onChange={value => setFieldValue('recaptcha', value)}
 				/>
@@ -122,7 +124,7 @@ const enhance = compose(
 					method: 'POST',
 					headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
 					body: encode({
-						'form-name': 'portfolio',
+						'form-name': 'portfolio-dev',
 						name,
 						email,
 						message,
