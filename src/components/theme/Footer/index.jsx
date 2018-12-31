@@ -9,7 +9,7 @@ export const Footer = () => (
 			<Details>
 				<h2>John Doe</h2>
 				<span>
-					© All rights are reserved | 2018 | Made with{' '}
+					© All rights are reserved | {new Date().getFullYear()} | Made with{' '}
 					<span aria-label="love" role="img">
 						💖
 					</span>{' '}
