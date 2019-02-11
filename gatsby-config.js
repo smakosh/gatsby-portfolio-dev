@@ -1,3 +1,4 @@
+const path = require('path')
 const config = require('./data/config')
 
 require('dotenv').config({
@@ -45,8 +46,8 @@ module.exports = {
 			resolve: 'gatsby-plugin-google-analytics',
 			options: {
 				trackingId: config.googleAnalyticsID,
-				head: true
-			}
+				head: true,
+			},
 		},
 		{
 			resolve: 'gatsby-plugin-favicon',
@@ -79,5 +80,17 @@ module.exports = {
 			},
 		},
 		'gatsby-plugin-offline',
+		{
+			resolve: `gatsby-plugin-alias-imports`,
+			options: {
+				alias: {
+					Components: path.resolve(__dirname, 'src/components'),
+					Common: path.resolve(__dirname, 'src/components/common'),
+					Static: path.resolve(__dirname, 'static/'),
+					Theme: path.resolve(__dirname, 'src/components/theme'),
+					Data: path.resolve(__dirname, 'data/config'),
+				},
+			},
+		},
 	],
 }
