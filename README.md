@@ -94,6 +94,11 @@ yarn reset
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
+## Contributors
+
+- [Ajayns](https://github.com/ajayns)
+- [Myself](https://smakosh.com)
+
 ## Support
 
 If you like this Gatsby theme and want to support me, you can do so through Patreon
