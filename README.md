@@ -14,7 +14,7 @@
 - Continuous deployment with [Netlify](https://netlify.com)
 - A contact form protected by Google Recaptcha
 - Can be deployed with one click
-- Functional components with Recompose, ready to migrate to React hooks!
+- Functional components with ~~Recompose~~ React Hooks! ~~ready to migrate to React hooks!~~
 - Fetches your Github pinned projects with most stars (You could customize this if you wish)
 
 ## Design
@@ -96,11 +96,11 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Contributors
 
-- [Ajayns](https://github.com/ajayns)
+- [Ajayns](https://github.com/ajayns) https://github.com/smakosh/gatsby-portfolio-dev/pull/3
 - [Myself](https://smakosh.com)
 
 ## Support
 
-If you like this Gatsby theme and want to support me, you can do so through Patreon
+If you love this Gatsby template and want to support me, you can do so through my Patreon
 
 [![Support me on Patreon](https://c5.patreon.com/external/logo/become_a_patron_button.png)](https://www.patreon.com/smakosh)

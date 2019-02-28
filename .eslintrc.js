@@ -1,7 +1,7 @@
 module.exports = {
 	parser: 'babel-eslint',
 	extends: ['airbnb', 'prettier'],
-	plugins: ['react', 'jsx-a11y', 'import'],
+	plugins: ['react', 'jsx-a11y', 'import', 'react-hooks'],
 	rules: {
 		semi: 0,
 		'comma-dangle': 0,
@@ -43,6 +43,8 @@ module.exports = {
 		'no-nested-ternary': 0,
 		'jsx-a11y/media-has-caption': 0,
 		'jsx-a11y/label-has-associated-control': 0,
+		'react-hooks/rules-of-hooks': 'error',
+		'react-hooks/exhaustive-deps': 'warn',
 	},
 	globals: {
 		fetch: 1,
