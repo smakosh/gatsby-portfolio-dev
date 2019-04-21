@@ -48,5 +48,6 @@ module.exports = {
 	},
 	globals: {
 		fetch: 1,
+		window: 1,
 	},
 }
