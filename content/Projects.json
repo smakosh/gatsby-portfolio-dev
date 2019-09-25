@@ -1,0 +1,39 @@
+{
+  "projects": [
+    {
+      "url": "https://github.com/Nelzio/Nyandayeyo",
+      "name": "Nyandayeyo",
+      "description": "Reports App",
+      "platform": "Web",
+      "author": "@Nelzio"
+    },
+    {
+      "url": "https://github.com/horaciocome1/reaque",
+      "name": "Reaque",
+      "description": "Mobile tool where you can share and find stories from Mozambique. From thoughts and culture, through history and gastronomy, to tourism and even fashion, if it is something about Mozambique, you should share or find it in Reaque. ",
+      "platform": "Android",
+      "author": "@horaciocome1"
+    },
+    {
+      "url": "https://github.com/horaciocome1/simple-recyclerview-adapter",
+      "name": "simple-recyclerview-adapter",
+      "description": "General purpose object that can be costumized to each case (item layout) by the time of creation. Similar to what is done on Listview with default adapters. Compatible with androidx.",
+      "platform": "Android",
+      "author": "@horaciocome1"
+    },
+    {
+      "url": "https://github.com/horaciocome1/simple-recyclerview-touch-listener",
+      "name": "simple-recyclerview-touch-listener",
+      "description": "An android library to simple handle user touch events over recyclerview.",
+      "platform": "Android",
+      "author": "@horaciocome1"
+    },
+    {
+      "url": "https://github.com/rosariopfernandes/Tocha",
+      "name": "Tocha",
+      "description": "\uD83D\uDD25 Full-Text Search for Firebase Projects that use the Spark (Free) plan.",
+      "platform": "Cloud",
+      "author": "@rosariopfernandes"
+    }
+  ]
+}
