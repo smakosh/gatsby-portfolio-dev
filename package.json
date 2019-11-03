@@ -14,7 +14,7 @@
     "gatsby-plugin-google-analytics": "^2.0.8",
     "gatsby-plugin-manifest": "^2.2.26",
     "gatsby-plugin-nprogress": "^2.0.7",
-    "gatsby-plugin-offline": "^3.0.17",
+    "gatsby-plugin-offline": "^2.2.9",
     "gatsby-plugin-react-helmet": "^3.0.2",
     "gatsby-plugin-sharp": "2.2.14",
     "gatsby-plugin-sitemap": "^2.0.3",
