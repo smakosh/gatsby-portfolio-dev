@@ -12,7 +12,7 @@
     "gatsby-plugin-canonical-urls": "^2.0.8",
     "gatsby-plugin-favicon": "^3.1.5",
     "gatsby-plugin-google-analytics": "^2.0.8",
-    "gatsby-plugin-manifest": "^2.0.9",
+    "gatsby-plugin-manifest": "^2.2.26",
     "gatsby-plugin-nprogress": "^2.0.7",
     "gatsby-plugin-offline": "^3.0.17",
     "gatsby-plugin-react-helmet": "^3.0.2",
