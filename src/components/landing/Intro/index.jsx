@@ -1,8 +1,8 @@
 import React from 'react'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
-import { Header } from 'Theme'
-import { Container, Button } from 'Common'
-import dev from 'Static/illustrations/dev.svg'
+import { Header } from 'components/theme'
+import { Container, Button } from 'components/common'
+import dev from 'assets/illustrations/dev.svg'
 import { Wrapper, IntroWrapper, Details, Thumbnail } from './styles'
 
 export const Intro = () => (
