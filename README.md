@@ -28,12 +28,16 @@ Project on [Behance](https://www.behance.net/gallery/74172961/Free-Gatsby-portfo
 ├── data
 │   └── config              # SEO related tags
 ├── src
+│   └── assets              # Assets
+│   │   │── icons             # icons
+│   │   │── illustrations     # illustrations from (undraw.co)
+│   │   └── thumbnail         # cover of your website when it's shared to social media
 │   ├── components          # Components
-│   │   │── common          # Common components
-│   │   │── landing         # Components used on the landing page
-│   │   └── theme           # Header & Footer
+│   │   │── common            # Common components
+│   │   │── landing           # Components used on the landing page
+│   │   └── theme             # Header & Footer
 │   └── pages               # Pages
-└── static                  # Icons, favicon & SVG illustrations
+└── static                  # favicon & Netlify redirects
 ```
 
 ## Prerequisites

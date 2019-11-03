@@ -1,5 +1,5 @@
 import React from 'react'
-import { Footer } from 'Theme'
+import { Footer } from 'components/theme'
 import { Global } from './styles'
 import './fonts.css'
 
