@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from 'styled-components';
 
 export const Global = createGlobalStyle`
   html {
@@ -623,4 +623,4 @@ export const Global = createGlobalStyle`
       }
     }
   }
-`
+`;

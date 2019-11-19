@@ -1,18 +1,18 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const Error = styled.span`
-	color: #ff4136;
-`
+  color: #ff4136;
+`;
 
 export const Center = styled.div`
-	text-align: left;
+  text-align: left;
 
-	h4 {
-		font-weight: normal;
-	}
-`
+  h4 {
+    font-weight: normal;
+  }
+`;
 
 export const InputField = styled.div`
-	position: relative;
-	margin-bottom: 1rem;
-`
+  position: relative;
+  margin-bottom: 1rem;
+`;
