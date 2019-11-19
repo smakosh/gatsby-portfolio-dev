@@ -1,7 +1,7 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const Card = styled.div`
-	padding: 1rem;
-	background: #fff;
-	height: 100%;
-`
+  padding: 1rem;
+  background: #fff;
+  height: 100%;
+`;
