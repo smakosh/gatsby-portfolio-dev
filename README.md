@@ -58,6 +58,8 @@ Please create a new file `.env.development` and put this env variable with your 
 GITHUB_TOKEN=xxxxxxxxxx
 ```
 
+> [Get your GitHub access token](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line#creating-a-token)
+
 Don't forget to edit your site's data on `data/config.js` file with your Google Recaptcha public key
 
 When deploying on Netlify, you will have to set the private key as well
