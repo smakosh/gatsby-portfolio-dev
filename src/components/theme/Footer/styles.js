@@ -1,8 +1,9 @@
+import footerIllustration from 'assets/illustrations/footer.svg';
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
   padding: 28rem 0 4rem 0;
-  background-image: url('../illustrations/footer.svg');
+  background-image: url(${footerIllustration});
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
