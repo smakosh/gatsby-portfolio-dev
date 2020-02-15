@@ -111,6 +111,9 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 - [Ajay NS](https://github.com/ajayns) https://github.com/smakosh/gatsby-portfolio-dev/pull/3
 - [Ryan Lee](https://github.com/drdgvhbh) https://github.com/smakosh/gatsby-portfolio-dev/pull/6
 - [David](https://github.com/davidavz) https://github.com/smakosh/gatsby-portfolio-dev/pull/8
+- [Léu Almeida](https://github.com/LeuAlmeida) https://github.com/smakosh/gatsby-portfolio-dev/pull/21
+- [Kudakwashe Mupeni](https://github.com/2wce) https://github.com/smakosh/gatsby-portfolio-dev/pull/20
+- [sasannnn](https://github.com/sasannnn) https://github.com/smakosh/gatsby-portfolio-dev/pull/22
 - [Myself](https://smakosh.com)
 
 ## Support
