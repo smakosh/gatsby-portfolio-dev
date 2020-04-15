@@ -1,6 +1,6 @@
 # Portfolio for developers
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/57c04515-1d1b-46e8-b531-213fabca9cc4/deploy-status)](https://app.netlify.com/sites/gatsby-portfolio-dev/deploys)
+[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/new/project?template=https://github.com/smakosh/gatsby-portfolio-dev)
 
 ## Theme
 
@@ -15,7 +15,8 @@
 - Nice project structure
 - Amazing illustrations by [Undraw.co](https://undraw.co)
 - Tablet & mobile friendly
-- Continuous deployment with [Netlify](https://netlify.com)
+- Continuous deployment with [ZEIT Now](https://zeit.co/?ref=smakosh)
+- Or with Netlify, check [Netlify branch](https://github.com/smakosh/gatsby-portfolio-dev/tree/netlify)
 - A contact form protected by Google Recaptcha
 - Can be deployed with one click
 - Functional components with ~~Recompose~~ React Hooks! ~~ready to migrate to React hooks!~~
@@ -46,43 +47,35 @@ Project on [Behance](https://www.behance.net/gallery/74172961/Free-Gatsby-portfo
 
 ## Prerequisites
 
-[Yarn](https://yarnpkg.com/en/)
+### Online
 
-Please create a new file `.env.development` and put this env variable with your GitHub token
+1. Create an account at [Formik](https://formik.com/?ref=smakosh) and grab your form endpoint url
+2. Grab a Google recaptcha key from [Google Recaptcha](https://www.google.com/recaptcha/admin)
+3. Grab your Github token from [GitHub](https://github.com/settings/tokens/new?scopes=repo&description=portfolio-dev)
+4. Click [![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/new/project?template=https://github.com/smakosh/gatsby-portfolio-dev) and pass in your:
+  
+  - Formik form endpoint
+  - Google recaptcha public key
+  - Github token
 
-> If you're building locally, you will have to create a new file `.env.production` and put the same env variable
+To ZEIT's now secrets UI form.
 
-```bash
-GITHUB_TOKEN=xxxxxxxxxx
-```
+### Locally
 
-> [Get your GitHub access token](https://github.com/settings/tokens/new?scopes=repo&description=portfolio-dev)
+1. Create an account at [Formik](https://formik.com/?ref=smakosh)
+2. Install [Yarn](https://yarnpkg.com/en/)
+3. Grab a Google recaptcha key from [Google Recaptcha](https://www.google.com/recaptcha/admin)
+4. Run `cp .env.development.template .env.development`
+5. Run `yarn && yarn start`
 
-Don't forget to edit your site's data on `data/config.js` file with your Google Recaptcha public key
+### Deploying locally to ZEIT Now
 
-When deploying on Netlify, you will have to set the private key as well
+I highly recommend that you push to GitHub/GitLab and deploy your repository to ZEIT Now instead or just hit the Deploy button.
 
-```bash
-SITE_RECAPTCHA_KEY=xxxxx
+Otherwise, you will have to do the following:
 
-SITE_RECAPTCHA_SECRET=xxxxx
-```
-
-I highly recommend you check this [repository](https://github.com/imorente/gatsby-netlify-form-example) for more details about the Google Recaptcha and Netlify forms
-
-## Installing
-
-Installing the dependencies
-
-```bash
-yarn
-```
-
-## Start the dev server
-
-```bash
-yarn start
-```
+1. Add your secrets one by one using the [Now CLI](https://zeit.co/docs/now-cli)
+2. Run `now`
 
 ### Clean the cache
 
@@ -97,6 +90,8 @@ yarn reset
 - Adobe XD
 - Gatsby
 - React & GraphQL
+- Formik
+- Google recaptcha
 - VSCode
 - And these useful of JavaScript libraries & Gatsby plugins [package.json](package.json)
 
