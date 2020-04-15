@@ -108,7 +108,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 - [Kudakwashe Mupeni](https://github.com/2wce) https://github.com/smakosh/gatsby-portfolio-dev/pull/20
 - [sasannnn](https://github.com/sasannnn) https://github.com/smakosh/gatsby-portfolio-dev/pull/22
 - [Michael Seifarth](https://github.com/Kageetai) https://github.com/smakosh/gatsby-portfolio-dev/pull/27
-- [Myself](https://smakosh.com)
+- [Smakosh](https://smakosh.com)
 
 ## Support
 
