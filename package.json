@@ -5,8 +5,9 @@
   "version": "0.1.2",
   "author": "Smakosh <ismai23l@hotmail.com>",
   "dependencies": {
+    "axios": "^0.19.2",
     "dotenv": "^6.2.0",
-    "formik": "^1.4.1",
+    "formik": "^2.1.4",
     "gatsby": "^2.17.7",
     "gatsby-image": "^2.2.30",
     "gatsby-plugin-canonical-urls": "^2.0.8",
