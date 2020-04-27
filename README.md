@@ -1,6 +1,8 @@
 # Portfolio for developers
 
-[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/new/project?template=https://github.com/smakosh/gatsby-portfolio-dev)
+[![Deploy with Vercel](https://vercel.co/button)](https://vercel.co/new/project?template=https://github.com/smakosh/gatsby-portfolio-dev)
+
+[![Powered by Vercel](./powered-by-vercel.svg)](https://vercel.co?utm_source=smakosh)
 
 ## Theme
 
@@ -15,7 +17,7 @@
 - Nice project structure
 - Amazing illustrations by [Undraw.co](https://undraw.co)
 - Tablet & mobile friendly
-- Continuous deployment with [ZEIT Now](https://zeit.co/?ref=smakosh)
+- Continuous deployment with [Vercel](https://vercel.co/?utm_source=smakosh)
 - Or with Netlify, check [Netlify branch](https://github.com/smakosh/gatsby-portfolio-dev/tree/netlify)
 - A contact form protected by Google Recaptcha
 - Can be deployed with one click
@@ -49,32 +51,32 @@ Project on [Behance](https://www.behance.net/gallery/74172961/Free-Gatsby-portfo
 
 ### Online
 
-1. Create an account at [Formik](https://formik.com/?ref=smakosh) and grab your form endpoint url
+1. Create an account at [Formik](https://formik.com/?utm_source=smakosh) and grab your form endpoint url
 2. Grab a Google recaptcha key from [Google Recaptcha](https://www.google.com/recaptcha/admin)
 3. Grab your Github token from [GitHub](https://github.com/settings/tokens/new?scopes=repo&description=portfolio-dev)
-4. Click [![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/new/project?template=https://github.com/smakosh/gatsby-portfolio-dev) and pass in your:
+4. Click [![Deploy with Vercel](https://zeit.co/button)](https://zeit.co/new/project?template=https://github.com/smakosh/gatsby-portfolio-dev) and pass in your:
   
   - Formik form endpoint
   - Google recaptcha public key
   - Github token
 
-To ZEIT's now secrets UI form.
+To Vercel's now secrets UI form.
 
 ### Locally
 
-1. Create an account at [Formik](https://formik.com/?ref=smakosh)
+1. Create an account at [Formik](https://formik.com/?utm_source=smakosh)
 2. Install [Yarn](https://yarnpkg.com/en/)
 3. Grab a Google recaptcha key from [Google Recaptcha](https://www.google.com/recaptcha/admin)
 4. Run `cp .env.development.template .env.development`
 5. Run `yarn && yarn start`
 
-### Deploying locally to ZEIT Now
+### Deploying locally to Vercel
 
-I highly recommend that you push to GitHub/GitLab and deploy your repository to ZEIT Now instead or just hit the Deploy button.
+I highly recommend that you push to GitHub/GitLab and deploy your repository to Vercel instead or just hit the Deploy button.
 
 Otherwise, you will have to do the following:
 
-1. Add your secrets one by one using the [Now CLI](https://zeit.co/docs/now-cli)
+1. Add your secrets one by one using the [Now CLI](https://vercel.co/docs/now-cli)
 2. Run `now`
 
 ### Clean the cache
@@ -112,6 +114,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Support
 
-If you love this Gatsby template and want to support me, you can do so through my Patreon
-
-[![Support me on Patreon](https://c5.patreon.com/external/logo/become_a_patron_button.png)](https://www.patreon.com/smakosh)
+If you love this Gatsby template and want to support me, you can do so through my GitHub profile.
