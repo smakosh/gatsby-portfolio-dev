@@ -1,6 +1,6 @@
 # Portfolio for developers
 
-[![Deploy with Vercel](https://vercel.co/button)](https://vercel.co/new/project?template=https://github.com/smakosh/gatsby-portfolio-dev)
+[![Deploy with Vercel](https://vercel.co/button)](https://vercel.com/import/settings?s=https%3A%2F%2Fgithub.com%2Fsmakosh%2Fgatsby-portfolio-dev&c=1&env=GATSBY_PORTFOLIO_GITHUB_TOKEN%2CGATSBY_PORTFOLIO_FORMIK_ENDPOINT%2CGATSBY_PORTFOLIO_RECAPTCHA_KEY&envDescription=Required%20to%20fetch%20your%20repositories%20from%20GitHub&envLink=https://github.com/smakosh/gatsby-portfolio-dev&framework=nextjs)
 
 [![Powered by Vercel](./powered-by-vercel.svg)](https://vercel.co?utm_source=smakosh)
 
@@ -23,6 +23,7 @@
 - Can be deployed with one click
 - Functional components with ~~Recompose~~ React Hooks! ~~ready to migrate to React hooks!~~
 - Fetches your Github pinned projects with most stars (You could customize this if you wish)
+- One click deployment to Vercel
 
 ## Design
 
@@ -54,13 +55,13 @@ Project on [Behance](https://www.behance.net/gallery/74172961/Free-Gatsby-portfo
 1. Create an account at [Formik](https://formik.com/?utm_source=smakosh) and grab your form endpoint url
 2. Grab a Google recaptcha key from [Google Recaptcha](https://www.google.com/recaptcha/admin)
 3. Grab your Github token from [GitHub](https://github.com/settings/tokens/new?scopes=repo&description=portfolio-dev)
-4. Click [![Deploy with Vercel](https://zeit.co/button)](https://zeit.co/new/project?template=https://github.com/smakosh/gatsby-portfolio-dev) and pass in your:
+4. Click [![Deploy with Vercel](https://zeit.co/button)](https://vercel.com/import/settings?s=https%3A%2F%2Fgithub.com%2Fsmakosh%2Fgatsby-portfolio-dev&c=1&env=GATSBY_PORTFOLIO_GITHUB_TOKEN%2CGATSBY_PORTFOLIO_FORMIK_ENDPOINT%2CGATSBY_PORTFOLIO_RECAPTCHA_KEY&envDescription=Required%20to%20fetch%20your%20repositories%20from%20GitHub&envLink=https://github.com/smakosh/gatsby-portfolio-dev&framework=nextjs) and pass in your:
   
   - Formik form endpoint
   - Google recaptcha public key
   - Github token
 
-To Vercel's now secrets UI form.
+To Env variables section.
 
 ### Locally
 
@@ -70,14 +71,11 @@ To Vercel's now secrets UI form.
 4. Run `cp .env.development.template .env.development`
 5. Run `yarn && yarn start`
 
+> You could run `vercel env pull` to get your env variables from Vercel.
+
 ### Deploying locally to Vercel
 
 I highly recommend that you push to GitHub/GitLab and deploy your repository to Vercel instead or just hit the Deploy button.
-
-Otherwise, you will have to do the following:
-
-1. Add your secrets one by one using the [Now CLI](https://vercel.co/docs/now-cli)
-2. Run `now`
 
 ### Clean the cache
 

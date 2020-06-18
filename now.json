@@ -1,9 +1,0 @@
-{
-	"build": {
-		"env": {
-			"GATSBY_PORTFOLIO_GITHUB_TOKEN": "@gatsby_portfolio_github_token",
-      "GATSBY_PORTFOLIO_FORMIK_ENDPOINT": "@gatsby_portfolio_formik_endpoint",
-      "GATSBY_PORTFOLIO_RECAPTCHA_KEY": "@gatsby_portfolio_recaptcha_key"
-		}
-	}
-}
