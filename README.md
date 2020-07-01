@@ -1,8 +1,8 @@
 # Portfolio for developers
 
-[![Deploy with Vercel](https://vercel.co/button)](https://vercel.com/import/settings?s=https%3A%2F%2Fgithub.com%2Fsmakosh%2Fgatsby-portfolio-dev&c=1&env=GATSBY_PORTFOLIO_GITHUB_TOKEN%2CGATSBY_PORTFOLIO_FORMIK_ENDPOINT%2CGATSBY_PORTFOLIO_RECAPTCHA_KEY&envDescription=Required%20to%20fetch%20your%20repositories%20from%20GitHub&envLink=https://github.com/smakosh/gatsby-portfolio-dev&framework=nextjs)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/settings?s=https%3A%2F%2Fgithub.com%2Fsmakosh%2Fgatsby-portfolio-dev&c=1&env=GATSBY_PORTFOLIO_GITHUB_TOKEN%2CGATSBY_PORTFOLIO_FORMIK_ENDPOINT%2CGATSBY_PORTFOLIO_RECAPTCHA_KEY&envDescription=Required%20to%20fetch%20your%20repositories%20from%20GitHub&envLink=https://github.com/smakosh/gatsby-portfolio-dev&framework=nextjs)
 
-[![Powered by Vercel](./powered-by-vercel.svg)](https://vercel.co?utm_source=smakosh)
+[![Powered by Vercel](./powered-by-vercel.svg)](https://vercel.com?utm_source=smakosh)
 
 ## Theme
 
@@ -17,7 +17,7 @@
 - Nice project structure
 - Amazing illustrations by [Undraw.co](https://undraw.co)
 - Tablet & mobile friendly
-- Continuous deployment with [Vercel](https://vercel.co/?utm_source=smakosh)
+- Continuous deployment with [Vercel](https://vercel.com/?utm_source=smakosh)
 - Or with Netlify, check [Netlify branch](https://github.com/smakosh/gatsby-portfolio-dev/tree/netlify)
 - A contact form protected by Google Recaptcha
 - Can be deployed with one click
@@ -55,7 +55,7 @@ Project on [Behance](https://www.behance.net/gallery/74172961/Free-Gatsby-portfo
 1. Create an account at [Formik](https://formik.com/?utm_source=smakosh) and grab your form endpoint url
 2. Grab a Google recaptcha key from [Google Recaptcha](https://www.google.com/recaptcha/admin)
 3. Grab your Github token from [GitHub](https://github.com/settings/tokens/new?scopes=repo&description=portfolio-dev)
-4. Click [![Deploy with Vercel](https://zeit.co/button)](https://vercel.com/import/settings?s=https%3A%2F%2Fgithub.com%2Fsmakosh%2Fgatsby-portfolio-dev&c=1&env=GATSBY_PORTFOLIO_GITHUB_TOKEN%2CGATSBY_PORTFOLIO_FORMIK_ENDPOINT%2CGATSBY_PORTFOLIO_RECAPTCHA_KEY&envDescription=Required%20to%20fetch%20your%20repositories%20from%20GitHub&envLink=https://github.com/smakosh/gatsby-portfolio-dev&framework=nextjs) and pass in your:
+4. Click [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/settings?s=https%3A%2F%2Fgithub.com%2Fsmakosh%2Fgatsby-portfolio-dev&c=1&env=GATSBY_PORTFOLIO_GITHUB_TOKEN%2CGATSBY_PORTFOLIO_FORMIK_ENDPOINT%2CGATSBY_PORTFOLIO_RECAPTCHA_KEY&envDescription=Required%20to%20fetch%20your%20repositories%20from%20GitHub&envLink=https://github.com/smakosh/gatsby-portfolio-dev&framework=nextjs) and pass in your:
   
   - Formik form endpoint
   - Google recaptcha public key
