@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
+import { ThemeContext } from 'providers/ThemeProvider';
 import { Container, Card } from 'components/common';
-import starIcon from 'assets/icons/star.svg';
-import forkIcon from 'assets/icons/fork.svg';
+import Star from 'components/common/Icons/Star';
+import Fork from 'components/common/Icons/Fork';
 import { Wrapper, Grid, Item, Content, Stats } from './styles';
 
 export const Projects = () => {
+  const { theme } = useContext(ThemeContext);
   const {
     github: {
       viewer: {
@@ -41,19 +43,19 @@ export const Projects = () => {
       <h2>Projects</h2>
       <Grid>
         {edges.map(({ node }) => (
-          <Item key={node.id} as="a" href={node.url} target="_blank" rel="noopener noreferrer">
-            <Card>
+          <Item key={node.id} as="a" href={node.url} target="_blank" rel="noopener noreferrer" theme={theme}>
+            <Card theme={theme}>
               <Content>
                 <h4>{node.name}</h4>
                 <p>{node.description}</p>
               </Content>
-              <Stats>
+              <Stats theme={theme}>
                 <div>
-                  <img src={starIcon} alt="stars" />
+                  <Star color={theme === 'light' ? '#000' : '#fff'} />
                   <span>{node.stargazers.totalCount}</span>
                 </div>
                 <div>
-                  <img src={forkIcon} alt="forks" />
+                  <Fork color={theme === 'light' ? '#000' : '#fff'} />
                   <span>{node.forkCount}</span>
                 </div>
               </Stats>

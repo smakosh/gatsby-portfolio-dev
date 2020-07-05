@@ -5,8 +5,12 @@ export const Wrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+`;
 
-  a {
-    color: #212121;
+export const Brand = styled.a`
+  color: ${({ theme }) => (theme === 'light' ? '#000' : '#fff')};
+
+  @media (max-width: 960px) {
+    mix-blend-mode: ${({ theme }) => (theme === 'light' ? 'unset' : 'difference')};
   }
 `;

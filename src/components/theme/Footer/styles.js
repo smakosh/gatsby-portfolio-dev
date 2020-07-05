@@ -44,6 +44,12 @@ export const Links = styled.div`
 `;
 
 export const Details = styled.div`
+  h2,
+  a,
+  span {
+    color: #212121;
+  }
+
   @media (max-width: 680px) {
     margin-bottom: 2rem;
   }
