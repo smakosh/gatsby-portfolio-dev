@@ -27,11 +27,11 @@ export const Item = styled.div`
   box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.11);
 
   h4 {
-    color: #212121;
+    color: ${({ theme }) => (theme === 'light' ? '#212121' : '#fff')};
   }
 
   p {
-    color: #707070;
+    color: ${({ theme }) => (theme === 'light' ? '#707070' : '#c7c7c7')};
   }
 `;
 
@@ -53,8 +53,12 @@ export const Stats = styled.div`
       margin: 0;
     }
 
+    svg path {
+      fill: ${({ theme }) => (theme === 'light' ? '#000' : '#fff')};
+    }
+
     span {
-      color: #000;
+      color: ${({ theme }) => (theme === 'light' ? '#000' : '#fff')};
       margin-left: 0.5rem;
     }
   }
