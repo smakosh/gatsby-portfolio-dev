@@ -68,8 +68,9 @@ To Env variables section.
 1. Create an account at [Formik](https://formik.com/?utm_source=smakosh)
 2. Install [Yarn](https://yarnpkg.com/en/)
 3. Grab a Google recaptcha key from [Google Recaptcha](https://www.google.com/recaptcha/admin)
-4. Run `cp .env.development.template .env.development`
-5. Run `yarn && yarn start`
+4. Grab your Github token from GitHub
+5. Run `cp .env.development.template .env.development`
+6. Run `yarn && yarn start`
 
 > You could run `vercel env pull` to get your env variables from Vercel.
 
