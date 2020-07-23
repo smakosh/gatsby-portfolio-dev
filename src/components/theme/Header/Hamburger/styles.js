@@ -21,6 +21,7 @@ export const Wrapper = styled.div`
 		
 			@media (max-width: 960px) {
 				right: 35%;
+				position: fixed;
 			}
 		
 			@media (max-width: 600px) {
