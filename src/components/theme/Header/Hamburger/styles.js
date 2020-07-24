@@ -44,24 +44,27 @@ export const Bar = styled.div`
 		width: 1.6rem;
 	}
 
-	${({ top, sidebar }) =>
+	${({ top, sidebar, theme }) =>
     top &&
     sidebar &&
-    `
+		`
+		background-color: ${(theme === 'light' ? '#212121' : '#fff')};
 		transform: translateY(8px) rotate(-135deg);
+		
 	`}
 
 	${({ mid, sidebar }) =>
     mid &&
     sidebar &&
-    `
-			transform: scale(0);
-	`}
+		`
+		transform: scale(0);
+		`}
 
-	${({ bottom, sidebar }) =>
+	${({ bottom, sidebar, theme }) =>
     bottom &&
     sidebar &&
-    `
+		`
+			background-color: ${(theme === 'light' ? '#212121' : '#fff')};
 			transform: translateY(-6px) rotate(-45deg);
 	`}
 `;
