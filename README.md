@@ -111,6 +111,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 - [Michael Seifarth](https://github.com/Kageetai) https://github.com/smakosh/gatsby-portfolio-dev/pull/27
 - [Hugo](https://github.com/Kronicom) https://github.com/smakosh/gatsby-portfolio-dev/pull/34 https://github.com/smakosh/gatsby-portfolio-dev/pull/35
 - [manula thejan](https://github.com/manula2004) https://github.com/smakosh/gatsby-portfolio-dev/pull/38
+- [Benjamin Lo](https://github.com/benji011) https://github.com/smakosh/gatsby-portfolio-dev/pull/40
 - [Smakosh](https://smakosh.com)
 
 ## Support
