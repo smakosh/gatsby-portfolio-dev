@@ -37,6 +37,7 @@ export const Item = styled.div`
 
 export const Content = styled.div`
   padding: 1rem 0;
+  min-height: 160px;
 `;
 
 export const Stats = styled.div`
@@ -62,4 +63,9 @@ export const Stats = styled.div`
       margin-left: 0.5rem;
     }
   }
+`;
+
+export const Languages = styled.div`
+  opacity: 0.5;
+  font-size: 14px;
 `;
