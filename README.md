@@ -4,6 +4,10 @@
 
 [![Powered by Vercel](./powered-by-vercel.svg)](https://vercel.com?utm_source=smakosh&utm_campaign=oss)
 
+## Next js version?
+
+[There you go](https://github.com/smakosh/next-portfolio-dev)
+
 ## Theme
 
 [Gatsby-theme-portfolio](https://github.com/smakosh/gatsby-theme-portfolio)
