@@ -1,14 +1,12 @@
 {
-  "editor.formatOnSave": false,
+  "editor.formatOnSave": true,
   // turn it off for JS and JSX, we will do this via eslint
   "[javascript]": {
-    "editor.formatOnSave": false
+    "editor.formatOnSave": true
   },
   "[javascriptreact]": {
-    "editor.formatOnSave": false
+    "editor.formatOnSave": true
   },
-  // Optional BUT IMPORTANT: If you have the prettier extension enabled for other languages like CSS and HTML, turn it off for JS since we are doing it through Eslint already
-  "prettier.disableLanguages": ["javascript", "javascriptreact"],
   // tell the ESLint plugin to run on save
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true

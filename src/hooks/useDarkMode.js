@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import useMedia from 'hooks/useMedia';
 
-export default () => {
+const useDarkMode = () => {
   const [theme, setTheme] = useState('light');
 
   const toggleTheme = () => {
@@ -30,3 +30,5 @@ export default () => {
 
   return [theme, toggleTheme];
 };
+
+export default useDarkMode
