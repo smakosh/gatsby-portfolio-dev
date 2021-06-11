@@ -35,7 +35,7 @@
 	"license": "MIT",
 	"scripts": {
 		"build": "gatsby build",
-		"start": "gatsby develop -o",
+		"start": "npx vercel dev && gatsby develop -o",
 		"reset": "rm -rf .cache/ public/",
 		"test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
 	},

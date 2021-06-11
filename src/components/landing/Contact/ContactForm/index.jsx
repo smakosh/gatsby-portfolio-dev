@@ -37,7 +37,7 @@ const ContactForm = () => (
 					url:
 						process.env.NODE_ENV !== "development"
 							? `${url}/api/contact`
-							: "http://localhost:8000/api/contact",
+							: "http://localhost:3000/api/contact",
 					headers: {
 						"Content-Type": "application/json",
 					},
