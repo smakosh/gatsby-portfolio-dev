@@ -56,25 +56,24 @@ Project on [Behance](https://www.behance.net/gallery/74172961/Free-Gatsby-portfo
 
 ### Online
 
-1. Create an account at [Formik](https://formik.com/?utm_source=smakosh) and grab your form endpoint url
+1. Create an account at [Formium](https://formium.io/?utm_source=smakosh) and grab your form endpoint url
 2. Grab a Google recaptcha key from [Google Recaptcha](https://www.google.com/recaptcha/admin)
 3. Grab your Github token from [GitHub](https://github.com/settings/tokens/new?scopes=repo&description=portfolio-dev)
 4. Click [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fsmakosh%2Fgatsby-portfolio-dev&env=PORTFOLIO_GITHUB_TOKEN,PORTFOLIO_FORMIUM_ENDPOINT,GATSBY_PORTFOLIO_RECAPTCHA_KEY&envDescription=All%20env%20variables%20are%20required%20to%20deploy%20the%20project&envLink=https%3A%2F%2Fgithub.com%2Fsmakosh%2Fgatsby-portfolio-dev%2Fblob%2Fmaster%2F.env.development.template&project-name=my-portfolio&repo-name=my-portfolio&demo-title=Portfolio%20demo&demo-description=A%20simple%20portfolio%20for%20developers&demo-url=https%3A%2F%2Fportfolio.smakosh.com&demo-image=https%3A%2F%2Fportfolio.smakosh.com%2Fstatic%2Fthumbnail-16a70559ab07712f83d3ce412dfbb5a6.png) and pass in your:
-  
-  - Formik form endpoint
-  - Google recaptcha public key
-  - Github token
+
+- Formium form endpoint
+- Google recaptcha public key
+- Github token
 
 To Env variables section.
 
 ### Locally
 
-1. Create an account at [Formik](https://formik.com/?utm_source=smakosh)
-2. Install [Yarn](https://yarnpkg.com/en/)
-3. Grab a Google recaptcha key from [Google Recaptcha](https://www.google.com/recaptcha/admin)
-4. Grab your Github token from GitHub
-5. Run `cp .env.development.template .env.development`
-6. Run `yarn && yarn start`
+1. Create an account at [Formium](https://formium.io/?utm_source=smakosh)
+2. Grab a Google recaptcha key from [Google Recaptcha](https://www.google.com/recaptcha/admin)
+3. Grab your Github token from GitHub
+4. Run `cp .env.development.template .env.development`
+5. Run `npm i && npm start`
 
 > You could run `vercel env pull` to get your env variables from Vercel.
 
@@ -95,7 +94,7 @@ yarn reset
 - Adobe XD
 - Gatsby
 - React & GraphQL
-- Formik
+- Formium
 - Google recaptcha
 - VSCode
 - And these useful of JavaScript libraries & Gatsby plugins [package.json](package.json)
