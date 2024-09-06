@@ -2,7 +2,7 @@ module.exports = {
   defaultTitle: 'John Doe',
   logo: 'https://portfolio.smakosh.com/favicon/favicon-512.png',
   author: 'John Doe',
-  url: 'https://portfolio.smakosh.com',
+  url: 'https://github.com/manse99/gatsby-portfolio-dev,
   legalName: 'John Doe',
   defaultDescription: 'I’m John and I’m a Backend & Devops engineer!',
   socialLinks: {
